@@ -92,11 +92,12 @@ body{
     align-items: center;
 }
 
-.user-options > a{
+.user-options > a {
     height: 80%;
     margin-right: 20px;
     cursor: pointer;
 }
+/* Komentaras */
 
 .user-dp{
     cursor: pointer;
