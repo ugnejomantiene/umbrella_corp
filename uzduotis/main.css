@@ -57,10 +57,11 @@ body{
 
 .search-box{
     position: relative;
-    max-width: 500px;
+    /* max-width: 500px; */
     width: 50%;
     height: 35px;
     display: flex;
+    padding-left: 100px;
 }
 
 .search-bar{
@@ -70,6 +71,7 @@ body{
     padding: 0 20px;
     font-size: 16px;
     text-transform: capitalize;
+    border-radius: 25px;
 }
 
 .search-btn{
@@ -79,6 +81,7 @@ body{
     border: 2px solid #dbdbdb;
     padding: 5px 0;
     border-left: none;
+    border-radius: 25px;
 }
 
 .search-btn img{
@@ -98,6 +101,8 @@ body{
     cursor: pointer;
 }
 /* Komentaras */
+/* Komentaras neaddintas */
+/* Belekas */
 
 .user-dp{
     cursor: pointer;
@@ -138,11 +143,10 @@ body{
     font-weight: 500;
     text-decoration: none;
 }
-
-.links img{
-    height: 25px;
-    margin-right: 20px;
+.links > i {
+    padding: 5px;
 }
+
 
 .links:hover,
 .links.active{
